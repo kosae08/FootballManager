@@ -30,11 +30,13 @@
         android:layout_below="@+id/login_id_layout">
         <EditText
             android:id="@+id/login_pw_text"
+            android:inputType="textPassword"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:hint="PASSWORD">
         </EditText>
+
     </LinearLayout>
     <LinearLayout
         android:id="@+id/login_btn_layout"
@@ -49,5 +51,5 @@
             android:text="Login">
         </Button>
 
-    </LinearLayout>
+    </LinearLayout>j
 </RelativeLayout>
